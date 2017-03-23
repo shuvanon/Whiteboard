@@ -8,13 +8,16 @@
 
         git clone https://github.com/shuvanon/Whiteboard.git
    
-2. Create a virtualenv
+2. Create a virtualenv and enter env/Script
 
         virtualenv env
+        cd env/Scripts/
         
-3. activate it
+3. Run activate.bat and return main folder
 
-        cd env/Script/activate.bat
+        activate.bat
+        cd ..
+        cd ..
 
 4. Install the required packages:
 
